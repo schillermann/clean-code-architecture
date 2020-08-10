@@ -1,0 +1,8 @@
+version: '2.0'
+services:
+  app:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html

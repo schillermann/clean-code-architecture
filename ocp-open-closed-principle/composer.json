@@ -1,0 +1,11 @@
+{
+    "name": "schillermann/ocp-open-closed-principle",
+    "description": "OCP: The Open-Closed Principle",
+    "type": "project",
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    },
+    "require": {
+        "mpdf/mpdf": "^8.0"
+    }
+}
